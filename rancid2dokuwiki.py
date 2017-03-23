@@ -23,6 +23,7 @@ for filename in os.listdir(rancidpath):
         newfile.write(configFile.read())
         newfile.write('\n</code>')
         newfile.close()
+        configFile.close()
 
 # Remove old dokuwiki device files
 
